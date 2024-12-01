@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(128, 121, 121);
+}
+.publicacion {
+    
+    width: 650px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+}
+
+
+.header-completa{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+    
+.TextoCabecera{
+    height: 80%;
+    width: 85%;
+    align-self: flex-start;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.IconoCabecera{
+   align-self: center;
+   font-size: 40px;
+   margin: 5px;
+}
+
+
+.IconoPuntosCabecera{
+    align-self: center;
+    font-size: 30px;
+    margin: 5px;
+ }
+   
+    
+ 
+ img {
+     width: 100%;
+     height: 60%;
+ 
+ }
+ 
+ .barra-iconos{
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+
+ }
+
+ .barra-iconos-derecho{
+    font-size: 30px;
+
+ }
+
+ .barra-iconos-izquierdo{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+      
+ }
+
+
+.icono {
+    
+   margin: 5px;
+     
+
+}
+
+
+.cuerpo-publicacion{
+    padding: 10px;
+    padding-bottom: 20px;
+}
